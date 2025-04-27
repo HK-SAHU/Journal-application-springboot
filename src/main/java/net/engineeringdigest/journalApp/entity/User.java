@@ -32,5 +32,6 @@ public class User {
     // this means that we are creating the reference in users collections to the entries in journal_entries(not whole content and title) working as foreign key
     private List<JournalEntry> journalEntries= new ArrayList<>();   // parent child relation has been established
 
+    private List<String> roles;   // this will tell that what the user is authorized to do. (user, admin etc)
 
 }
