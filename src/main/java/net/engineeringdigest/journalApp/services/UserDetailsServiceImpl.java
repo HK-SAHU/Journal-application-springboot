@@ -38,7 +38,7 @@ par ye user details hai kya?
     then add .builder().username(user.getUserName()).password(user.getPassword())
 
     and this . notation is getter setter (User user= new User()) and we could also do user.setUsername()/ user.setPassword()
-    .roles() kind of roles and it should be comma separated and it convert it to array and type of array we want and of the size of the roles is bigger than it will resize the array
+    .roles() kind of roles and it should be comma separated and it convert it to array and type of array we want and if the size of the roles is bigger than it will resize the array
 
     then .build() it
 

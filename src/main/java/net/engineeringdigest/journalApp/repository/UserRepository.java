@@ -15,6 +15,8 @@ Meaning: You don't have to manually instantiate UserRepository; Spring will inje
 @Component
 public interface UserRepository extends MongoRepository<User, ObjectId> {    //<entry, and type of the id>
     User findByUserName(String username);
+
+    User deleteByUserName(String username);
 }
 
 /*
